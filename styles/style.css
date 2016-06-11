@@ -1,6 +1,6 @@
 body {
 
-    background-color:#E7E7E7;
+    background-color:#262626;
     font-family: Arial;
     position: absolute;
     top:0;
@@ -14,7 +14,7 @@ body {
 
 .mainmenu {
     position: relative;
-    background-color: #FF7A5A;
+    background-color: #80DEDE;
     width: 380px;
     height: 380px;
     -webkit-border-radius: 4px;
@@ -26,7 +26,7 @@ body {
 
 h2 {
     margin: 0 auto;
-    background:#8ED2C9;
+    background:#565A5C;
     padding: 1em 0.4em;
     font-size: 1.5em;
     font-weight: 400;
@@ -54,14 +54,14 @@ h2 {
 }
 
 input.button {
-    background:#004C70;
+    background:#E98092;
     color:#fff;
     font-size: 1em;
 
 }
 
 input.button:hover {
-    background: #9E3B33;
+    background: #E98092;
     color: #fff;
 
 }
