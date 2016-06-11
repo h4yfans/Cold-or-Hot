@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title> Cold or Hot | Soğuk veya Sıcak </title>
+		 <meta charset="utf-8" />
+    	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" href="styles/style.css" />
+	<head>
+
+
+	<body>
+  <div class="mainmenu" align="center">
+        <h2 id="condition">Make your Guess!</h2>
+        <h3 id="relative-feedback"></h3>
+
+        <form>
+            <input type="text" name="userGuess" id="userGuess" class="text" maxlength="3" autocomplete="off" placeholder="Enter your Guess" required/>
+            <input type="submit" id="guessButton" class="button" name="submit" value="Guess" />
+        </form>
+
+        <p>Guesses Counter : <span id="count">0</span>!</p>
+
+        <ul id="guessList" class="guessBox clearfix">
+
+        </ul>
+	<input type="submit" id="guessButton" class="button" name="submit" value="Start a New GAME!" onclick="newGame();" />
+    </div>
+	 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    	<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
